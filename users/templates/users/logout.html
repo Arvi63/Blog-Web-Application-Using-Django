@@ -1,0 +1,13 @@
+
+{% extends 'blog/layout.html' %}
+
+{% block body %}
+    <h2>You are logged out</h2>
+    <div class='border-top pt-3'>
+        <small class='text-muted'> 
+            <a  href="{% url "login" %}">Login In</a>
+        </small>
+    </div>
+
+       
+{% endblock body %}
